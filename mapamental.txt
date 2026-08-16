@@ -1,0 +1,57 @@
+# [I2A2](https://www.i2a2.ca/) 
+
+## Abertura
+- Orientações Gerais
+- Gestão de Projetos de IA
+
+## Módulo 1
+- [Probabilidade](https://github.com/vsvasconcelos/i2a2/blob/main/m1_probabilidade.ipynb)
+- [Estatística](https://github.com/vsvasconcelos/i2a2/blob/main/m1_estatistica.ipynb)
+- [Álgebra Linear](https://github.com/vsvasconcelos/i2a2/blob/main/m1_algebralinear.ipynb)
+- Desafio 1
+
+## Módulo 2
+
+- Ferramentas 1
+	- [Python](https://github.com/vsvasconcelos/i2a2/blob/main/m2_python.ipynb)
+	- [Jupyter Notebook](https://github.com/vsvasconcelos/i2a2/blob/main/m2_Jupyter.ipynb)
+- [Preparação dos dados 1](https://github.com/vsvasconcelos/i2a2/blob/main/m2_prepdados_p1.ipynb)
+- [Preparação dos dados 2](https://github.com/vsvasconcelos/i2a2/blob/main/m2_prepdados_p2.ipynb)
+- Desafio 2
+
+## Módulo 3
+- [Aprendizado Supervisionado](https://github.com/vsvasconcelos/i2a2/blob/main/m3_aprendsuper.ipynb)
+- [Aprendizado Não Supervisionado](https://github.com/vsvasconcelos/i2a2/blob/main/m3_aprendnaosuper.ipynb)
+- Ferramentas 2
+	- [Orange Data Mining intermediário](https://github.com/vsvasconcelos/i2a2/blob/main/m3_orange.ipynb)
+	- [Python e Jupyter intermediário](https://github.com/vsvasconcelos/i2a2/blob/main/m3_pythoninter.ipynb)
+- Desafio 3
+
+## Módulo 4
+- [Classificação e Agrupamento](https://github.com/vsvasconcelos/i2a2/blob/main/m4_classagrup.ipynb)
+- [Regressão](https://github.com/vsvasconcelos/i2a2/blob/main/m4_regressao.ipynb)
+- [Redução de Dimensionalidade](https://github.com/vsvasconcelos/i2a2/blob/main/m4_reducdimensi.ipynb)
+- Desafio 4
+
+## Módulo 5
+- [Redes Neurais](https://github.com/vsvasconcelos/i2a2/blob/main/m5_redesneurais.ipynb)
+- [Deep learning 1](https://github.com/vsvasconcelos/i2a2/blob/main/m5_dl1.ipynb)
+- [Deep Learning 2](https://github.com/vsvasconcelos/i2a2/blob/main/m5_dl2.ipynb)
+- Desafio 5
+
+## Módulo 6
+- IA-1
+	- [NLP](https://github.com/vsvasconcelos/i2a2/blob/main/m6_nlp.ipynb)
+	- [Aprendizado por Reforço](https://github.com/vsvasconcelos/i2a2/blob/main/m6_aprendreforco.ipynb)
+- IA-2
+	- [Visão Computacional](https://github.com/vsvasconcelos/i2a2/blob/main/m6_visao.ipynb)
+	- [Séries Temporais](https://github.com/vsvasconcelos/i2a2/blob/main/m6_seriestemporais.ipynb)
+- Desafio Final
+
+## Mentorias
+
+
+
+
+
+
