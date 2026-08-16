@@ -11814,7 +11814,7 @@ Segundo o <a href="https://www.nytimes.com/2014/08/18/technology/for-big-data-sc
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="2.1)-Obten&#231;&#227;o-dos-Dados">2.1) Obten&#231;&#227;o dos Dados<a class="anchor-link" href="#2.1)-Obten&#231;&#227;o-dos-Dados">&#182;</a></h2><p>Os dados para realização deste projeto foram obtidos da fonte secundária <a href="http://www.openstreetmap.com.br/">OpenStreetMap</a>, que é um projeto de produção colaborativa de dados geoespaciais abertos, no qual qualquer pessoa pode editar o mapa e os dados são redistribuídos sob a licença <a href="http://www.openstreetmap.org/copyright?locale=pt-BR">ODbL</a>.<br>
 A <a href="https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_de_S%C3%A3o_Paulo">RMSP</a> reúne 39 municípios do estado de São Paulo, sendo a maior região metropolitana do Brasil, e uma das dez mais populosas do mundo.
-<img src="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/rmsp.png" alt="RNA"></p>
+<img src="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/rmsp.png" alt="RNA"></p>
 
 </div>
 </div>
@@ -11843,7 +11843,7 @@ A <a href="https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_de_S%C3%A3o_P
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Esta etapa foi realizada seguindo as melhores práticas de limpeza de dados (blueprint) conforme <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/blueprint.ipynb">Bradshaw</a>.</p>
+<p>Esta etapa foi realizada seguindo as melhores práticas de limpeza de dados (blueprint) conforme <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/blueprint.ipynb">Bradshaw</a>.</p>
 
 </div>
 </div>
@@ -11863,7 +11863,7 @@ A <a href="https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_de_S%C3%A3o_P
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Conforme já apresentado, o conjunto de dados deste trabalho possui 764MB; para facilitar o processo de auditoria, começaremos o trabalho analisando uma pequena amosta da base, assim a iteração na investigação será feita mais rapidamente; após validado este processo, ele será aplicado em toda a base.<br>
-A amostra da base foi obtida por meio do programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/AmostraBase.ipynb">AmostraBase.ipynb</a>, sendo que seu tamanho ficou em 77,5MB.</p>
+A amostra da base foi obtida por meio do programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/AmostraBase.ipynb">AmostraBase.ipynb</a>, sendo que seu tamanho ficou em 77,5MB.</p>
 
 </div>
 </div>
@@ -11902,7 +11902,7 @@ O trecho da base de dados abaixo ilustra o exemplo da <em>Rua João Boemer</em>.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Para obtenção dos nomes das vias e seus respectivos tipos, foi utilizado o módulo de expressões regulares <a href="https://docs.python.org/2/library/re.html">(re)</a> do Python; sendo este instalado com o seguinte comando: <strong>pip install regex</strong>. &lt;/p&gt;   O programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/TiposDeVias.ipynb">TiposDeVias.ipynb</a> busca os tipos de vias encontrados na base bem como suas quantidades; e conforme a sua saída, apresentada abaixo, na amostra da base foram encontrados 29 tipos de via, distribuídos em 2353 vias, sendo <em>Rua</em> o tipo de maior frequência com 1530 registros, seguido por <em>Avenida</em> com 694 registros. Contudo, temos por exemplo, os registros <em>rua, R. e Av.</em> que respectivamente devem ser os dois registros mais encontrados, mas por desejo dos usuários foram lançados desta forma.</p>
+<p>Para obtenção dos nomes das vias e seus respectivos tipos, foi utilizado o módulo de expressões regulares <a href="https://docs.python.org/2/library/re.html">(re)</a> do Python; sendo este instalado com o seguinte comando: <strong>pip install regex</strong>. &lt;/p&gt;   O programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/TiposDeVias.ipynb">TiposDeVias.ipynb</a> busca os tipos de vias encontrados na base bem como suas quantidades; e conforme a sua saída, apresentada abaixo, na amostra da base foram encontrados 29 tipos de via, distribuídos em 2353 vias, sendo <em>Rua</em> o tipo de maior frequência com 1530 registros, seguido por <em>Avenida</em> com 694 registros. Contudo, temos por exemplo, os registros <em>rua, R. e Av.</em> que respectivamente devem ser os dois registros mais encontrados, mas por desejo dos usuários foram lançados desta forma.</p>
 
 </div>
 </div>
@@ -11950,7 +11950,7 @@ O trecho da base de dados abaixo ilustra o exemplo da <em>Rua João Boemer</em>.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Com os tipos de via reconhecidos, o próximo passo foi auditá-los, identificando todos os tipos de via estranhos presente na base; o programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/rev2/AuditaTiposDeVias.ipynb">AuditaTiposDeVias.ipynb</a> realiza essa identificação e modifica os tipos de vias, conforme exemplo abaixo:</p>
+<p>Com os tipos de via reconhecidos, o próximo passo foi auditá-los, identificando todos os tipos de via estranhos presente na base; o programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/rev2/AuditaTiposDeVias.ipynb">AuditaTiposDeVias.ipynb</a> realiza essa identificação e modifica os tipos de vias, conforme exemplo abaixo:</p>
 
 </div>
 </div>
@@ -11973,7 +11973,7 @@ O trecho da base de dados abaixo ilustra o exemplo da <em>Rua João Boemer</em>.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="b)-Auditanto-os-tags">b) Auditanto os tags<a class="anchor-link" href="#b)-Auditanto-os-tags">&#182;</a></h4><p>A próxima auditoria realizada foi em relação a todos os tags; o programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaTags.ipynb">AuditaTags.ipynb</a>, examina cada um deles verificando e classificando eventuais desvios, sendo estes:<br>
+<h4 id="b)-Auditanto-os-tags">b) Auditanto os tags<a class="anchor-link" href="#b)-Auditanto-os-tags">&#182;</a></h4><p>A próxima auditoria realizada foi em relação a todos os tags; o programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaTags.ipynb">AuditaTags.ipynb</a>, examina cada um deles verificando e classificando eventuais desvios, sendo estes:<br>
 <em>lower</em>: Para tags válidas com somente letras minúsculas;<br>
 <em>lower_colon</em>: Para tags válidas com dois-pontos em seus nomes;<br>
 <em>problemchars</em>: Para tags com caracteres problemáticos; e<br>
@@ -12010,7 +12010,7 @@ O trecho da base de dados abaixo ilustra o exemplo da <em>Rua João Boemer</em>.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Ainda com relação aos tags, o programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/ContagemDosTags.ipynb">ContagemDosTags.ipynb</a> realiza a identificação e a contagem destes; abaixo segue a saída do programa, com os tags identificados bem como suas quantidades.</p>
+<p>Ainda com relação aos tags, o programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/ContagemDosTags.ipynb">ContagemDosTags.ipynb</a> realiza a identificação e a contagem destes; abaixo segue a saída do programa, com os tags identificados bem como suas quantidades.</p>
 
 </div>
 </div>
@@ -12036,7 +12036,7 @@ O trecho da base de dados abaixo ilustra o exemplo da <em>Rua João Boemer</em>.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="c)-Auditanto-os-usu&#225;rios-da-base">c) Auditanto os usu&#225;rios da base<a class="anchor-link" href="#c)-Auditanto-os-usu&#225;rios-da-base">&#182;</a></h4><p>Agora serão auditados os usuários da base, o programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaUsuarios.ipynb">AuditaUsuarios.ipynb</a> reconhece as identificações dos usuários na base.
+<h4 id="c)-Auditanto-os-usu&#225;rios-da-base">c) Auditanto os usu&#225;rios da base<a class="anchor-link" href="#c)-Auditanto-os-usu&#225;rios-da-base">&#182;</a></h4><p>Agora serão auditados os usuários da base, o programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaUsuarios.ipynb">AuditaUsuarios.ipynb</a> reconhece as identificações dos usuários na base.
 Abaixo é apresentado o trecho inicial da saída do programa, a qual apresenta que foram identificados 1233 usuários e mostrando suas identificações (uid).</p>
 
 </div>
@@ -12061,7 +12061,7 @@ Abaixo é apresentado o trecho inicial da saída do programa, a qual apresenta q
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="d)-Auditanto-os-CEPs">d) Auditanto os CEPs<a class="anchor-link" href="#d)-Auditanto-os-CEPs">&#182;</a></h4><p>Os CEPs foram auditados inicialmente pela <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/blueprint.ipynb">métrica de qualidade</a> da <strong>validade</strong>; verificando se esses estão de acordo com o padrão de 8 digitos definidos pelos <a href="https://www.correios.com.br/para-voce/precisa-de-ajuda/o-que-e-cep-e-por-que-usa-lo/estrutura-do-cep">Correios</a>. O programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaCEP.ipynb">AuditaCEP.ipynb</a> utiliza expressões regulares para validar os CEPs.<br>
+<h4 id="d)-Auditanto-os-CEPs">d) Auditanto os CEPs<a class="anchor-link" href="#d)-Auditanto-os-CEPs">&#182;</a></h4><p>Os CEPs foram auditados inicialmente pela <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/blueprint.ipynb">métrica de qualidade</a> da <strong>validade</strong>; verificando se esses estão de acordo com o padrão de 8 digitos definidos pelos <a href="https://www.correios.com.br/para-voce/precisa-de-ajuda/o-que-e-cep-e-por-que-usa-lo/estrutura-do-cep">Correios</a>. O programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaCEP.ipynb">AuditaCEP.ipynb</a> utiliza expressões regulares para validar os CEPs.<br>
 Abaixo são apresentados alguns problemas encontrados na base de dados:</p>
 
 </div>
@@ -12105,7 +12105,7 @@ Abaixo são apresentados alguns problemas encontrados na base de dados:</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>O programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaCEP-rev2.ipynb">AuditaCEP-rev2.ipynb</a> lê os CEPs da base de dados e busca no site dos Correios se este existe.<br>
+<p>O programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/AuditaCEP-rev2.ipynb">AuditaCEP-rev2.ipynb</a> lê os CEPs da base de dados e busca no site dos Correios se este existe.<br>
 Abaixo são apresentados um exemplo de um CEP que existe e os três CEPs que não existem na base de dados dos Correios.</p>
 
 </div>
@@ -12143,8 +12143,8 @@ Abaixo são apresentados um exemplo de um CEP que existe e os três CEPs que nã
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>O armazenamento dos dados foi realizado no <a href="https://pt.wikipedia.org/wiki/MongoDB">MongoDB</a>, que é um banco de dados orientados a documentos do tipo <a href="https://pt.wikipedia.org/wiki/JSON">JSON</a>; assim, para subir os dados do OpenStreetMap, que são arquivos XML, para o MongoDB é necessário realizar a conversão de XML para JSON, o que foi realizado com o programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/Xml2Json-rev2.ipynb">Xml2Json-rev2.ipynb</a>.<br>
-Além de fazer a conversão, este programa realiza a padronização dos tipos de via conforme feito no programa <a href="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/rev2/AuditaTiposDeVias.ipynb">AuditaTiposDeVias.ipynb</a> mais especificamente na função <em>update_name</em>.<br>
+<p>O armazenamento dos dados foi realizado no <a href="https://pt.wikipedia.org/wiki/MongoDB">MongoDB</a>, que é um banco de dados orientados a documentos do tipo <a href="https://pt.wikipedia.org/wiki/JSON">JSON</a>; assim, para subir os dados do OpenStreetMap, que são arquivos XML, para o MongoDB é necessário realizar a conversão de XML para JSON, o que foi realizado com o programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/Xml2Json-rev2.ipynb">Xml2Json-rev2.ipynb</a>.<br>
+Além de fazer a conversão, este programa realiza a padronização dos tipos de via conforme feito no programa <a href="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/rev2/AuditaTiposDeVias.ipynb">AuditaTiposDeVias.ipynb</a> mais especificamente na função <em>update_name</em>.<br>
 A saída deste programa foi um arquivo JSON de 86,6MB, isto é, maior que o arquivo XML que o originou (77,5MB). Abaixo é apresentado uma linha deste arquivo de saída.</p>
 
 </div>
@@ -12392,7 +12392,7 @@ A saída deste programa foi um arquivo JSON de 86,6MB, isto é, maior que o arqu
 <p>Como sugestão de trabalhos futuros, as bases de dados do projeto OSM da RMSP poderiam ser relacionadas com a da Pesquisa de Origem e Destino <a href="http://www.metro.sp.gov.br/metro/arquivos/OD2007/sintese-od2007.pdf">Pesquisa OD</a> coordenada pelo Metrô de SP em colaboração com várias outras instituições interessadas.<br>
 Com isso, seria possível aplicar o modelo de previsão de demanda de passageiros de metrô utilizando Redes Neurais Artificiais (RNA), proposto por <a href="https://bibliotecatede.uninove.br/handle/tede/151">VASCONCELOS</a>, possibilitando a previsão de passageiros, de forma dinâmica, de uma nova estação de metrô/trem inserida na RMSP. O modelo em questão utiliza 4 variáveis de entrada para a predição da demanda de passageiros, conforme figura abaixo, que por sua vez servem como base para estudos econômico-financeiros destes projetos.
 Na Pesquisa OD, a RMSP é subdividida em 460 zonas de tráfego, assim, para cada uma destas zonas seriam incluídos os valores das 4 entradas da RNA.</p>
-<p><img src="http://nbviewer.jupyter.org/github/vsvasconcelos/-DW-OSM-RMSP/blob/master/RNA.PNG" alt="RNA"></p>
+<p><img src="https://github.com/vsvasconcelos/-DW-OSM-RMSP/blob/master/RNA.PNG" alt="RNA"></p>
 <p>Um dos problemas nesta implementação seria quando uma estação ficasse entre duas ou mais zonas de tráfego, nestas condições quais dados seriam utilizados na entrada da RNA?<br>
 Este é um exemplo de definições de deveriam ser tratadas.</p>
 
