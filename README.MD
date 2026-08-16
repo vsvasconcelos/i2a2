@@ -10,10 +10,10 @@ Este repositório contém os materiais de aula, desafios e o mapa mental interat
 
 ## 🗺️ Mapa Mental Interativo
 Acesse o mapa mental interativo para visualizar a jornada completa do curso e navegar diretamente para os materiais de cada aula:
-👉 **[Mapa Mental Interativo (nbviewer)](https://nbviewer.org/github/vsvasconcelos/i2a2/blob/main/mapamental_rev2.html)**
+👉 **[Mapa Mental Interativo](https://raw.githack.com/vsvasconcelos/i2a2/main/mapamental_rev2.html)**
 
 <p align="center">
-  <a href="https://nbviewer.org/github/vsvasconcelos/i2a2/blob/main/mapamental_rev2.html">
+  <a href="https://raw.githack.com/vsvasconcelos/i2a2/main/mapamental_rev2.html">
     <img src="images/mapamental.png" alt="Mapa Mental I2A2" width="800">
   </a>
 </p>
