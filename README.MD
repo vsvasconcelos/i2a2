@@ -64,6 +64,6 @@ Se encontrar algum link quebrado ou tiver sugestões para melhorar o material, s
 ---
 
 <p align="center">
-  <b>Visitas ao Repositório</b><br>
+  <b>Visitas desde 15/08/2026</b><br>
   <img src="https://komarev.com/ghpvc/?username=vsvasconcelos&repo=i2a2&color=blueviolet&style=flat-square" alt="Contador de Visitas" />
 </p>
